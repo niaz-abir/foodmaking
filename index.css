@@ -1,0 +1,165 @@
+
+body{
+    background-color: rgb(247, 222, 190);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*header section start here*/
+.head-function{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.half-width h1{
+    font-size: 45px;
+    color: rgb(76, 136, 30);
+    
+}
+
+.half-width img{
+    width: 60%;
+    border-radius: 5px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 14%;
+}
+.contain{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 7px;
+
+}
+.btn{
+    background-color: rgb(114, 191, 114);
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(114, 191, 114);
+    transition: .4s;
+}
+
+
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+    margin-top: 31px;
+    border-radius: 7px;
+    margin-left: 230px;
+   
+   
+    
+
+}
+.title{
+    text-align: center;
+}
+.title, h1{
+    font-size: 40px;
+    color: maroon;
+}
+.container:hover{
+    border: 1px solid blue;
+    transition: 0.4s;
+    
+    
+}
+
+.foods{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 15px;
+    justify-content: center;
+}
+.food img{
+    width: 117px;
+    height: 117px;
+    border-radius: 7px;
+}
+
+.food:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    
+}
+.food{
+    box-shadow: 1px solid gray;
+}
+.hr{
+    background: 1px solid gray;
+    margin-top: 30px;
+}
+/* chicken start here*/
+.chikens{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 15px;
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+.chiken img{
+    width: 116px;
+    height: 116px;
+}
+/* icereams start here*/
+.icecreams{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 25px;
+}
+.thumrail img{
+    width: 118px;
+    height: 118px;
+}
+.icecream{
+    display: flex;
+}
+.ice-info{
+    margin-left: 15px;
+}
+/*work in form*/
+.container  h1{
+    text-align: center;
+}
+.log-in-forn{
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.form input{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 2px 4px;
+}
+.form input[type="submit"]{
+    background: rgb(191, 119, 119);
+    border: 0;
+    border-radius: 5px;
+    color: black;
+}
+.blood{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:668px)  {
+    .container{
+        width: 100%;
+    }
+    
+}
